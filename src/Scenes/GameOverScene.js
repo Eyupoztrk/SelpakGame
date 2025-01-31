@@ -15,13 +15,10 @@ export default class GameOverScene extends Phaser.Scene {
     }
 
     create() {
-        // Oyun bittiğinde ses çal
-       // this.sound.play('gameOverSound');
+        // this.sound.play('gameOverSound');
 
-        // Arka planı gradient yapıyoruz
         
 
-        // "Game Over" yazısı hafifçe büyüyerek gelir
         let gameOverText = this.add.text(window.innerWidth / 2, window.innerHeight / 4, 'Game Over', {
             fontSize: '64px',
             fill: '#ffffff',
@@ -83,7 +80,7 @@ export default class GameOverScene extends Phaser.Scene {
         });
 
         restartButton.on('pointerdown', () => {
-            this.scene.start(this.previousScene); // Geldiği sahneyi yeniden başlat
+            this.scene.start(this.previousScene); // 
         });
 
         // Ekstra bir "Exit Game" butonu ekleyebiliriz
