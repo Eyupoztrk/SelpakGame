@@ -10,8 +10,8 @@ export default class GameOverScene extends Phaser.Scene {
     }
 
     preload() {
-        // Arka plan için bir görsel yükleyebilirsin ya da ses ekleyebilirsin
-       // this.load.audio('gameOverSound', 'Assests/Sounds/gameover.mp3'); // Ses dosyasını yüklüyoruz
+       
+       // this.load.audio('gameOverSound', 'Assests/Sounds/gameover.mp3'); // Ses dosyası
     }
 
     create() {
